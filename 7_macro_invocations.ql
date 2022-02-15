@@ -1,4 +1,4 @@
 import cpp
-from MacroInvocation x
-where x.getMacro().getName().regexpMatch("ntoh(s|l|ll)")
-select x.getExpr()
+from MacroInvocation xi
+where xi.getMacro().getName().regexpMatch("ntoh(s|l|ll)")
+select xi.getExpr()
